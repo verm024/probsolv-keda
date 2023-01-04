@@ -14,4 +14,8 @@ describe("Fish Bash Problem", () => {
   it("Can print 'fish' when the number is completely divided by 3", () => {
     expect(resultArray[6]).toBe("fish");
   });
+
+  it("Can print itself when the number is not completely divided by 3, 5, and 15", () => {
+    expect(resultArray[4]).toBe(4);
+  });
 });
